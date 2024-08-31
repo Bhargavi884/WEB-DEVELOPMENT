@@ -1,0 +1,145 @@
+<!--provide 3 hyper links:YAHOO,GOOGLE,CNN 
+on click of those links its corresponding web site should be opened-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://login.yahoo.com/">YAHOO</a></br>
+    <a href="https://www.google.com/">GOOGLE</a><br>
+    <a href="https://www.cnn.com/">CNN</a>
+</body>
+</html>
+
+<!--Display a company's information using headers (h1 to h6)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+   <center><h1>
+    BHARGAVI INNOVATIONS
+   </h1></center>
+   <h2>
+    Bhargavi Innovations is an IT services, consulting and business solutions organization that has been partnering with many of the Indias 's largest businesses in their transformation journeys for over 25 years.
+   </h2>
+   <h3>
+    Bhargavi Innovations is an IT services, consulting and business solutions organization that partners with many of the world's largest businesses in their transformation journeys. Bhargavi Innovations offers a consulting-led, Cognitive powered, integrated portfolio of IT, Business & Technology Services, and engineering.
+   </h3>
+   <h4>
+    Top 5 reasons to work at Bhargavi Innovations
+    Work-life balance. Often, people working in software industry find it very hard to maintain the work-life balance. ...</h4></br>
+    Brand name. ...</br>
+    Work environment. ...</br>
+    People/colleagues. ...</br>
+    Leave policy.
+   </h4>
+   <h5>
+    It  operates in 150 locations across 46 countries. In March 2024, it was reported that Bhargavi Innovations  had more than 601,546 employees overall india. TCS is the second-largest Indian company by market capitalization, the most valuable IT service brands in india , and the top Big Tech (India) company.
+   </h5>
+   <h6>
+    We empower the holistic development of our employees though comprehensive learning initiatives and mentorship, career advancement opportunities, financial guidance, health & wellness benefits, and above all, an environment to thrive in! Diversity, equity, and inclusion. Our diversity is an asset.
+   </h6>
+</body>
+</html>
+
+
+<!--Display the employee information in tables.It should have the following information
+>>employee id name department and designation-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border:1px solid black;
+            border-collapse: collapse;
+            padding:2px;
+            font-size:18px;
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <tr>
+        <th>EMPLOYEE ID</th>
+        <th>NAME</th>
+        <th>DEPARTMENT</th>
+        <th>DESIGNATION</th>
+       </tr><!--th table heading--> 
+      
+            <tr>
+                <td>101</td>
+                <td>BHARGAVI</td>
+                <td>SALES</td>
+                <td>REPRESENTATIVE</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>JYOTI</td>
+                <td>IT</td>
+                <td>SENIOR SOFTWARE</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>VANI</td>
+                <td>HR</td>
+                <td>GENERLIST</td>
+            </tr>
+            <tr>
+                <td>104</td>
+                <td>BHUMI</td>
+                <td>FINANCE</td>
+                <td>ACCOUNTS</td>
+            </tr>
+    </table>
+</body>
+</html>
+
+
+<!--Display the list of the countries using unordered list-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>INDIA</li>
+        <li> BANGLADESH</li>
+        <li>PAKISTAN</li>
+        <li>BHUTAN</li>
+        <li>NEPAL</li>
+        <li>INDONESIA</li>
+        
+    </ul>
+</body>
+</html>
+
+
+<!--On click of a link,display Edureka's website in an iframe -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="https://www.edureka.co/?msclkid=b3f47eae9dac10d6263318383f6d74f7&utm_source=bing&utm_medium=cpc&utm_campaign=Brand-Search-India%20(Core)&utm_term=edureka&utm_content=Edureka%3A%20Core%3A%20BMM" width="100%" height="1000px"></iframe>
+
+</body>
+</html>
