@@ -1,0 +1,173 @@
+<!--Display the web page with"USER INFORMATION" as heading usimg the <h1> tag and include the following fields as the form fields: 
+    >>FIRST NAME
+    >>LAST NAME
+    >>ADDRESS
+    >>EMAIL ID
+    >> DATE OF BIRTH-use dat field-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td{
+            border:1px solid black;
+            border-collapse: collapse;
+            padding:2px;
+            font-size:18px;
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>USER INFORMATION</h1>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    First name: <input type="text" placeholder="fname" name="fname"></br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last name: <input type="text" placeholder="lname" name="lname"></br>
+                </td>
+            </tr>    
+            <tr>
+                <td>
+                    Address: <input type="text" placeholder="address" name="address"></br>
+                </td>
+            <tr>
+                    <td>
+                        Email ID: <input type="text"placeholder="Email ID "  name="mail"></br>
+                    </td>    
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth: <input type="Date"placeholder="Date "  name="Date of Birth"></br>
+                </td>    
+        </tr>
+        </table>
+    </form>
+</body>
+</html>
+
+<!--Write HTML script to play audio file with control and play the audio file as soon as the web page is loaded(Note :Use autoplay option)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <audio controls autoplay muted>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        <source src="your-audio-file.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>
+
+
+<!--Write HTML script to play video file with control and play the video file as soon as the web page is loaded(Note :Use autoplay option).The video has to repeat playing once it stops (Use loop option)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video width="500" height="500" controls autoplay>
+        <source src="ASSIGNMENT 2/mov_bbb.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
+
+
+<!--write html script to display two circles (use either canvas or svg)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <svg width="400" height="200">
+        <!-- Circle 1 -->
+        <circle cx="100" cy="100" r="50" fill="#007bff" />
+        
+        <!-- Circle 2 -->
+        <circle cx="250" cy="100" r="70" fill="#ff9800" />
+    </svg>
+    
+
+</body>
+</html>
+
+
+<!--Write HTML script to store your first name ,last name and date of birth as part of web storage local storage content by retrieving it-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage </title>
+    <label>First Name</label>
+    <input type="text" id="firstName" />
+    <br />
+
+    <label>Last Name:</label>
+    <input type="text" id="lastName" />
+    <br/>
+
+    <label>Date of Birth:</label>
+    <input type="date" id="dob" />
+    <br/>
+
+    <button onclick="storeData()">Store data</button>
+     
+    <div id="displayData"></div>
+
+    <script>
+        function storeData(){
+            var firstName=document.getElementById("firstName").value;
+
+            var lastName=document.getElementById("lastName").value;
+
+            var dob=document.getElementById("dob").value;
+
+            localStorage.setitem("firstName",firstName);
+            localStorage.setitem("lastName",lastName);
+            localStorage.setitem("dob",dob);
+br/
+            alert("Data stored successfully!");
+            }
+            
+            function retrieveData() {
+                var firstName=localStorage.getItem("firstName");
+                var lastName=localStorage.getItem("lastName"); 
+                var dob=localStorage.getItem("dob");
+
+            document.getElementById("displayData").innerHTML= "FirstName" + firstName + "<br/>" + 
+                                                              "LastName" + LastName + "<br/>" +
+                                                              "Date of Birth" + dob;
+
+
+
+            }
+            
+
+    </script>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
